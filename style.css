@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css start */
+.header{
+    height: 80px;
+    background: #AA0601;
+    padding-right: 80px;
+}
+.header ul li{
+    color: #fff;
+    display: inline;
+    float: right;
+    padding-top: 30px;
+    padding-right: 80px;
+}
+.content{
+    width: auto;
+    height: 900px;
+}
+.content .home-header-bg{
+    height: 900px;
+    background-image: url("img/home-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .home-header-bg h2{
+    position: absolute;
+    font-size: 32px;
+    top: 450px;
+    right: 160px;
+    color: #AA0601;
+}
+.content .home-header-bg h1{
+    position: absolute;
+    font-size: 64px;
+    top: 500px;
+    right: 160px;
+    color: #AA0601;
+}
+.content .home-header-bg .buy{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 580px;
+    right: 160px;
+    background: #AA0601;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
+.middle{
+    height: 450px;
+    position: relative;
+    background: #FBF2F2;
+}
+.middle h1{
+    text-align: center;
+    padding-top: 100px;
+    color: #AA0601;
+    font-size: 52px;
+}
+.middle ul li{
+    margin-left: 400px;
+    float: left;
+    color: #AA0601;
+    font-size: 22px;
+}
+.middle ul li img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.middle ul li h2{
+    margin-top: 30px;
+}
+.classic{
+    height: 900px;
+    position: relative;
+}
+.classic h1{
+    padding-top: 100px;
+    font-size: 52px;
+    color: #AA0601;
+    text-align: center;
+}
+.classic ul{
+    margin-left: 600px;
+}
+.classic ul li{
+    float: left;
+    margin-left: 30px;
+}
+.classic ul li img{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+}
+.classic ul li h2{
+    text-align: center;
+    color:#AA0601;
+    font-size: 46px;
+    margin-top: 20px;
+}
+.design{
+    height: 700px;
+    background-image: url("img/index-bg.png");
+    position: relative;
+}
+.design h1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #fff;
+    font-size: 52px;
+}
+.design .d-glasses{
+    margin: 0 auto;
+    background: #fff;
+    height: 400px;
+    width: 1600px;
+}
+.design .d-glasses ul li img{
+    width: 800px;
+    height: 300px;
+    float: left;
+}
+.design .d-glasses ul li h2{
+    float: left;
+    color:#AA0601;
+    font-size: 46px;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 230px;
+}
+.recommend{
+    height: 800px;
+}
+.recommend h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 52px;
+    color: #AA0601;
+    text-align: center;
+}
+.recommend ul{
+    margin-left: 510px;
+}
+.recommend ul li{
+    margin-left: 30px;
+    float: left;
+    height: 450px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #000;
+    position: relative;
+}
+.recommend ul li img{
+    height: 280px;
+    width: 300px;
+}
+.recommend ul li h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.recommend ul li p{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.recommend ul li h3{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+.contact{
+    height: 1000px;
+    background: #FBF2F2;
+}
+.contact .contact-info{
+    margin: 0 auto;
+    width: 500px;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #AA0601;
+    font-size: 52px;
+}
+.contact p{
+    text-align: center;
+    font-size: 22;
+    letter-spacing: 1px;
+}
